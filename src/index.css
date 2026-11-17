@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Space Grotesk', Arial, sans-serif;
+  color: #192d35;
+  background: #f5f4ef;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #192d35;
+  --ink-soft: #52636a;
+  --muted: #7d898b;
+  --line: #d9dedb;
+  --paper: #f5f4ef;
+  --card: #ffffff;
+  --mint: #dff2e8;
+  --teal: #006e6a;
+  --coral: #f16b4f;
+  --yellow: #f5cf65;
+  --mono: 'DM Mono', monospace;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+body { background-color: var(--paper); background-image: linear-gradient(rgba(25,45,53,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(25,45,53,.035) 1px, transparent 1px); background-size: 32px 32px; }
+button, input { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; }
